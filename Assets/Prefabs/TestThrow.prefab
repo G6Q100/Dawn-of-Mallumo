@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8290107972013659128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5870585917981402162}
+  - component: {fileID: 8658001210038527765}
+  m_Layer: 0
+  m_Name: TestThrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5870585917981402162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8290107972013659128}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 47.163612, y: -2.5539057, z: -9.060989}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8658001210038527765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8290107972013659128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2bd22ba798e7a49a4cbc4c189de0b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stats:
+  - speed: 8
+    Yvelocity: 18
+    gravity: 2.5
+    used: 0
+  - speed: 6
+    Yvelocity: 18
+    gravity: 2.5
+    used: 0
+  - speed: 4
+    Yvelocity: 18
+    gravity: 2.5
+    used: 0
+  - speed: 2.5
+    Yvelocity: 18
+    gravity: 2.5
+    used: 0
+  - speed: 1
+    Yvelocity: 18
+    gravity: 2.5
+    used: 0
+  rock: {fileID: 4198220060502030222, guid: 12ce261b8d64d6c45938582d4175adc5, type: 3}
